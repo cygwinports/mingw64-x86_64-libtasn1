@@ -1,0 +1,13 @@
+gtk-doc macros require GNU make
+
+--- origsrc/libtasn1-3.6/configure.ac	2014-05-22 14:42:29.000000000 -0500
++++ src/libtasn1-3.6/configure.ac	2014-06-01 23:19:23.522001000 -0500
+@@ -21,7 +21,7 @@ AC_INIT([GNU Libtasn1],[3.6],[help-libta
+ AC_CONFIG_AUX_DIR([build-aux])
+ AC_CONFIG_MACRO_DIR([m4])
+ AC_CONFIG_HEADERS(config.h)
+-AM_INIT_AUTOMAKE([1.10 -Wall -Werror -Wno-override])
++AM_INIT_AUTOMAKE([1.10 -Wall -Wno-override])
+ AM_SILENT_RULES([yes])
+ 
+ # Library code modified:                              REVISION++
