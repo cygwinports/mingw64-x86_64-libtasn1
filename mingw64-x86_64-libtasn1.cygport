@@ -2,7 +2,7 @@ CROSS_HOST="x86_64-w64-mingw32"
 inherit cross gnome2
 
 NAME="mingw64-x86_64-libtasn1"
-VERSION=4.9
+VERSION=4.10
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="ASN.1 library for Win64 toolchain"
@@ -13,7 +13,6 @@ SRC_URI="mirror://gnu/libtasn1/libtasn1-${VERSION}.tar.gz
 	 mirror://gnu/libtasn1/libtasn1-${VERSION}.tar.gz.sig"
 SRC_DIR="libtasn1-${VERSION}"
 PATCH_URI="
-	4.9-mingw.patch
 	4.9-vpath.patch
 "
 
